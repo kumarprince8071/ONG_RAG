@@ -1,0 +1,25 @@
+# --- API Framework ---
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9  # Required for file upload endpoints
+
+# --- Core Frameworks ---
+langchain==0.1.12
+langchain-community==0.0.28
+langchain-openai==0.0.8  # Specific for LLM generation
+pydantic==2.6.3
+
+# --- Vector Database ---
+qdrant-client==1.8.0
+
+# --- Re-Ranking & Search ---
+# Essential for production-grade accuracy
+cohere==4.54.0
+
+# --- Caching (Redis) ---
+redis==5.0.3
+
+# --- Utilities ---
+python-dotenv==1.0.1
+requests==2.31.0
+httpx==0.27.0
